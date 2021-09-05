@@ -1,0 +1,69 @@
+body {
+    background-color: grey;
+    margin: 0;
+}
+
+/* header styling */
+
+header {
+    background: aliceblue;
+    position: fixed;
+    width: 100%;
+}
+
+header>nav {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 1fr;
+}
+
+.logo-wrapper .logo-img {
+    width: 100px;
+    height: 50px;
+}
+
+ul.header-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    margin: 0;
+    padding: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+/* main section styling */
+.main-section{
+    height: 800px;
+}
+
+/* footer styling */
+
+footer {
+    text-align: center;
+    background: #232629;
+    color: white;
+    padding: 10px 0;
+}
+
+p.copy-right{
+    color: gray;
+}
+
+footer .icon {
+    font-size: 25px;
+    margin: 10px;
+}
