@@ -78,7 +78,7 @@ margin: 10px 34px;
 #home{
     display: flex;
     flex-direction: column;
-    height: 496px;
+    height: 488px;
     padding: 3px 200px;
     justify-content: center;
     align-items: center;
@@ -155,6 +155,8 @@ margin: 10px 34px;
     height: 43%;
     z-index: -1;
     /* opacity: 0.4; */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #clients{
